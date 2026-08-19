@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+}
+
+div.Appcontent h2{
+    font-size: 2.2rem;
+    margin: 10px;
+}
+
+div.Appcontent{
+    background-color: darkolivegreen;
+    padding: 2%;
+    margin:1%;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+div.Appcontent p.qtn{
+    font-size: 20px;
+}
+
+div.inputdiv{
+    margin: 6% 0px;
+}
+
+div.inputdiv input{
+    padding:3%;
+    font-size: 25px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+
+div.inputdiv button.btn{
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    background-color: darkred;
+    color:white;
+}
+
+div.imgdiv img.FruitImg{
+   width:40%;
+   height: 40vh;
+   margin-top: 5%;
+   border-radius: 10px;
+}
+
+div.Appcontent div.remarkcontainer{
+   display: flex;
+    justify-content: center;
+}
+
+div.Appcontent div.resultcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+div.remarkcontainer div.remark{
+    background-color: darkred;
+    color: white;
+    padding: 2%;
+    margin-bottom:10px;
+    font-size: 20px;
+}
+
+div.resultcontainer div.result{
+    font-size: 20px;
+}
+
+p span.fruitname{
+   font-size:25px;
+   font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
