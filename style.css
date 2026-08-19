@@ -7,6 +7,8 @@
 .container{
    display: flex;
    justify-content: center;
+   height: 100vh;
+   align-items: center;
 }
 
 div.Appcontent h2{
@@ -38,6 +40,7 @@ div.inputdiv input{
     border-radius: 5px;
     border:none;
     outline: none;
+    width: 90%;
 }
 
 div.inputdiv button.btn{
@@ -86,4 +89,22 @@ p span.fruitname{
 
 .hide{
     display: none;
+}
+
+@media (max-width: 450px){
+    div.inputdiv input{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    div.inputdiv button.btn{
+        font-size: 20px;
+    }
+
+    div.imgdiv img.FruitImg{
+        width:150px;
+        height: 150px;
+        margin-top: 5%;
+        border-radius: 10px;
+    }
 }
